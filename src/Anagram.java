@@ -6,7 +6,7 @@ public class Anagram{
         String s2 = str2.replaceAll("\\s", "");  
         boolean status = true;  
         if (s1.length() != s2.length()) {  
-            status = false;  
+            status = false; //true 
         } else {  
             char[] ArrayS1 = s1.toLowerCase().toCharArray();  
             char[] ArrayS2 = s2.toLowerCase().toCharArray();  
